@@ -10,5 +10,13 @@ export default defineNuxtConfig({
     families: {
       Inter: [300, 500, 800]
     }
+  },
+
+  primevue: {
+    options: { unstyled: true },
+    importPT: {
+      as: 'lara',
+      from: '@/assets/presets/lara/' 
+    }
   }
 })
